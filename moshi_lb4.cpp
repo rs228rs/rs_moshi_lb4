@@ -182,7 +182,8 @@ int main() {
         bestsize = best.size();
     }
     cout << endl;
-    cout << " a - number of ants " << bestsize << endl;
+
+    cout << " a - number of cities " << bestsize << endl;
     cout << " b - evaporation of pheromone " << econst << endl;
     cout << " c - pheromone visibility " << ab[0] << endl;
     return 0;
